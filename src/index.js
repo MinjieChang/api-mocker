@@ -5,6 +5,8 @@ const chalk = require('chalk')
 
 const error = chalk.bold.red
 
+const rootDir = process.cwd()
+
 const isFileExist = filePath => fs.existsSync(filePath)
 
 const getFileExt = filePath => path.extname(filePath)
@@ -36,8 +38,8 @@ const getFileMap = mockPath => {
 
 const mockServer = (app, options = {}) => {
   const { watch = '/api/*', api } = options
-  const mockPath = path.resolve(__dirname, 'mock')
-  const apiPath = path.resolve(__dirname, api)
+  const mockPath = path.resolve(rootDir, 'mock')
+  const apiPath = path.resolve(rootDir, api)
   let fileMap = getFileMap(mockPath)
   if (!isFileExist(mockPath)) {
     console.log('')
@@ -64,7 +66,7 @@ const getMockUrlMap = apiPath => {
   const api = load(apiPath)
   return Object.keys(api).reduce((prev, next) => {
     const urlPath = api[next]
-    prev[urlPath] = path.resolve(__dirname, './mock/', next)
+    prev[urlPath] = path.resolve(rootDir, './mock/', next)
     return prev
   }, {})
 }
