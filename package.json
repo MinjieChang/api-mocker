@@ -1,7 +1,7 @@
 {
   "name": "@bike/api-mocker",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack-dev-server api mocker",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib"
@@ -11,6 +11,10 @@
     "mock",
     "api mock"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://dev.sankuai.com/code/repo-detail/~CHANGMINJIE/api-mocker/file/list"
+  },
   "author": "changminjie",
   "license": "ISC",
   "files": [
