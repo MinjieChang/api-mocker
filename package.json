@@ -1,0 +1,26 @@
+{
+  "name": "@bike/api-mocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": [
+    "webpack-dev-server",
+    "mock",
+    "api mock"
+  ],
+  "author": "changminjie",
+  "license": "ISC",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
