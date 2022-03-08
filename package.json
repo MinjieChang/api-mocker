@@ -19,7 +19,8 @@
   "license": "ISC",
   "files": [
     "lib",
-    "src"
+    "src",
+    "README.md"
   ],
   "dependencies": {},
   "devDependencies": {
