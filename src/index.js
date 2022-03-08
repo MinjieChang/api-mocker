@@ -1,6 +1,6 @@
+const fs = require('fs')
 const path = require('path')
 const glob = require('glob')
-const fs = require('fs')
 const chalk = require('chalk')
 
 const error = chalk.bold.red
