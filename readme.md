@@ -50,8 +50,8 @@ const apiMocker = require('@bike/api-mocker')
 
 `option` 选项有两个参数：
 
-- watch：需要监听的 `url` 前缀，默认为 `/api/*`，建议本地开发加上此前缀，只对本地开发生效，不影响测试泳道和 `st` 环境
-- api：提供本地 `api`文件地址
+1. watch：需要监听的 `url` 前缀，默认为 `/api/*`，建议本地开发加上此前缀，只对本地开发生效，不影响测试泳道和 `st` 环境
+2. api：提供本地 `api`文件地址
 
 ### api 文件
 
