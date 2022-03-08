@@ -1,6 +1,6 @@
 {
   "name": "@bike/api-mocker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack-dev-server api mocker",
   "main": "lib/index.js",
   "scripts": {
