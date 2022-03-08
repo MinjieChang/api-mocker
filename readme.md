@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-mnpm install @bike/api-mocker
+mnpm install --save-dev @bike/api-mocker
 ```
 
 ## Use
