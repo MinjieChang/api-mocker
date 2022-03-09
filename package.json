@@ -1,6 +1,6 @@
 {
   "name": "quick-api-mocker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webpack-dev-server api mocker",
   "main": "lib/index.js",
   "scripts": {
