@@ -1,11 +1,11 @@
-# @bike/api-mocker
+# quick-api-mocker
 
 基于 `webpack-dev-server`，提供本地开发数据 `mock` 服务
 
 ## Install
 
 ```shell
-mnpm install --save-dev @bike/api-mocker
+mnpm install --save-dev quick-api-mocker
 ```
 
 ## Use
@@ -17,7 +17,7 @@ mnpm install --save-dev @bike/api-mocker
 在 `webpack5`中配置 `devServer`：
 
 ```js
-const apiMocker = require('@bike/api-mocker')
+const apiMocker = require('quick-api-mocker')
 {
   devServer: {
     ...
@@ -34,7 +34,7 @@ const apiMocker = require('@bike/api-mocker')
 在 `webpack4`中配置：
 
 ```js
-const apiMocker = require('@bike/api-mocker')
+const apiMocker = require('quick-api-mocker')
 {
   devServer: {
     ...

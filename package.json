@@ -1,5 +1,5 @@
 {
-  "name": "@bike/api-mocker",
+  "name": "quick-api-mocker",
   "version": "1.0.2",
   "description": "webpack-dev-server api mocker",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://dev.sankuai.com/code/repo-detail/~CHANGMINJIE/api-mocker/file/list"
+    "url": "https://github.com/MinjieChang/api-mocker.git"
   },
   "author": "changminjie",
   "license": "ISC",
